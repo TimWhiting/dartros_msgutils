@@ -1,3 +1,6 @@
+## 0.1.0+1
+- Require stable releases of std_msgs and actionlib_msgs
+  
 ## 0.1.0
 - Null-safe stable release
 
