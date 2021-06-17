@@ -7,7 +7,7 @@ import 'package:buffer/buffer.dart';
 
 import 'time_utils.dart';
 
-abstract class RosMessage<T> implements Function {
+abstract class RosMessage<T> {
   String get fullType;
   String get messageDefinition;
   String get md5sum;
@@ -23,6 +23,7 @@ abstract class RosServiceMessage<C extends RosMessage<C>,
   R get response;
   String get md5sum;
   String get fullType;
+  String get messageDefinition;
 }
 
 abstract class RosActionGoal<G extends RosMessage<G>,
@@ -61,6 +62,7 @@ abstract class RosActionMessage<
   R get result;
   String get md5sum;
   String get fullType;
+  String get messageDefinition;
 }
 
 extension LenInBytes on String {
