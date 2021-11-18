@@ -1,3 +1,6 @@
+## 0.1.0+2
+- Remove dartx dependency
+  
 ## 0.1.0+1
 - Require stable releases of std_msgs and actionlib_msgs
   

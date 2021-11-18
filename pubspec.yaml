@@ -1,6 +1,6 @@
 name: dartros_msgutils
 description: A Dart implementation of a ROS 1 Client Library
-version: 0.1.0+1
+version: 0.1.0+2
 repository: https://github.com/TimWhiting/dartros
 
 environment:
@@ -10,5 +10,6 @@ dependencies:
   actionlib_msgs: '>=0.1.0 < 0.2.0'
   std_msgs: '>=0.1.0 < 0.2.0'
   buffer: ^1.1.0
-  dartx: ^0.7.0
- 
+
+dev_dependencies:
+  test: any
